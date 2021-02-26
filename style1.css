@@ -54,7 +54,7 @@ ul{
 .features{
     position: relative;
     top: 300px;
-    width: 1300px;
+    width: 1200px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -142,7 +142,7 @@ ul{
     margin-left: 0px;
     margin-right: 0px;
     height: 250px;
-    width: 1341px;
+    width: 1300px;
 }
 .review{
     position: absolute;

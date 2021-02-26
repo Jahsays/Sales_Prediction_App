@@ -1,0 +1,64 @@
+body{
+    background:  #ffffff;
+    
+}
+
+.container{
+    /* border: 2px solid; */
+    /* border-style: none; */
+    height: 500px;
+    width: 850px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+    background:  #D6F6E3;
+}
+
+.headings{
+    position: absolute;
+    left: 320px;
+    top: 40px;
+}
+
+  .data{
+    position: absolute;
+    left: 50px;
+    top: 153px;
+    height: 30px;
+    background: #2F4D00;
+    border-style: none;
+    color: #ffffff;
+    border-radius: 10px;
+} 
+
+table{
+    position: absolute;
+    left: 220px;
+    top: 150px;
+}
+
+ th{
+    background: #F77941;
+    height: 40px;
+    border-radius: 20px 20px 0px 0px;
+    
+} 
+
+ input{
+    border: none;
+    border-bottom: 2px solid #E5E5E5;
+    background-color: inherit;
+    
+} 
+
+ .predict{
+    position: absolute;
+    top: 400px;
+    left: 370px;
+    height: 40px;
+    width: 150px;
+    background: #2F4D00;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+ }  
