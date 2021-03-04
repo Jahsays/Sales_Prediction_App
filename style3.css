@@ -1,0 +1,46 @@
+.container{
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    width: 90%;
+    background-color: #D6F6E3;;
+}
+
+.description{
+    position: relative;
+    left: 90px;
+    /* display: inline-flexbox; */
+}
+
+button, select{
+    width: 10%;
+    height: 40px;
+    border-radius: 10px;
+    /* border-style: none; */
+}
+input{
+    width:50%;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+}
+.first{
+color: green;
+/* display: inline; */
+position: relative;
+left: 90px;
+display: flex;
+justify-content: space-between;
+width: 50%;
+}
+
+p{
+    position: relative;
+    left: 40px;
+}
+
+hr{
+    width:120px;
+    /* text-align:left; */
+    /* margin-left:0; */
+}
