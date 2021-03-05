@@ -1,22 +1,29 @@
+body{
+    /* position: relative; */
+}
 .container{
     position: absolute;
-    left: 80px;
+    /* right: 0px; */
+    left: 70px;
     top: 30px;
-    width: 90%;
+    width: 80%;
+    height: 90%;
     background-color: #D6F6E3;;
 }
 
 .description{
     position: relative;
-    left: 90px;
+    left: 190px;
+    
     /* display: inline-flexbox; */
 }
 
 button, select{
-    width: 10%;
+    width: 140px;
     height: 40px;
     border-radius: 10px;
     /* border-style: none; */
+    color: black;
 }
 input{
     width:50%;
@@ -24,23 +31,63 @@ input{
     border-radius: 10px;
     border-style: none;
 }
-.first{
-color: green;
-/* display: inline; */
-position: relative;
-left: 90px;
-display: flex;
-justify-content: space-between;
-width: 50%;
+
+.drop-down1, .drop-down2, .drop-down3, .drop-down4{
+  position: relative;
+  display: flex;
+  justify-content: space-between;  
+  width: 57%;
+  margin-top: 20px;
 }
 
-p{
+.drop-down2, .drop-down4{
+    width: 45%;
+    margin-left: 80px;
+}
+
+.first, .second {
+color: black;
+/* display: inline; */
+position: relative;
+left: 190px;
+display: flex;
+justify-content: space-between;
+width: 58%;
+margin-top: 35px;
+}
+
+.second{
+    width: 50%;
+    position: relative;
+    left: 250px;
+}
+
+p.secondd, p{
     position: relative;
     left: 40px;
 }
 
+p.secondd{
+    left: 25px;
+}
+
 hr{
     width:120px;
-    /* text-align:left; */
-    /* margin-left:0; */
+    border-bottom: 1px solid;
+}
+
+.second hr{
+ width: 150px;
+}
+
+button{
+    position: relative;
+    top: 90px;
+    left: 460px;
+    width: 190px;
+    color: #ffffff;
+    background: #2F4D00;
+    border-radius: 15px;
+    border-style: none;
+    margin-top: -62px;
 }
