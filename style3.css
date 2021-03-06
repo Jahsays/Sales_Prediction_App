@@ -4,7 +4,7 @@ body{
 .container{
     position: absolute;
     /* right: 0px; */
-    left: 70px;
+    left: 150px;
     top: 30px;
     width: 80%;
     height: 90%;
@@ -13,9 +13,18 @@ body{
 
 .description{
     position: relative;
-    left: 190px;
+    /* left: 0px; */
+    border: 1px solid black;
+    width: 100%;
+    /* overflow: hidden; */
+    /* justify-content: space-between; */
     
     /* display: inline-flexbox; */
+}
+
+.heading{
+    position: relative;
+  left: 100px;
 }
 
 button, select{
@@ -26,7 +35,7 @@ button, select{
     color: black;
 }
 input{
-    width:50%;
+    width:52%;
     height: 30px;
     border-radius: 10px;
     border-style: none;
@@ -34,6 +43,7 @@ input{
 
 .drop-down1, .drop-down2, .drop-down3, .drop-down4{
   position: relative;
+  left: 220px;
   display: flex;
   justify-content: space-between;  
   width: 57%;
