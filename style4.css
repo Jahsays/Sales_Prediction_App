@@ -1,26 +1,80 @@
 body{
-    background-color: #ffffff;
+    background-color: black;
 }
 
+.parent{
+    /* border: 1px solid; */
+    height: 620px;
+    width: 950px;
+    background-color: #ffffff;
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: fit-content;
     height: fit-content;
     position: relative;
-    left: 550px;
-    top: 40px;
+    left: 230px;
+    top: 30px;
+    background-color: #ffffff;
+}
+
+.heading{
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    /* border: 1px solid; */
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+.illustration{
+    width: 500px;
+    height: 300px;
+    /* object-fit: cover; */
+    /* border: 1px solid; */
+    position: relative;
+    top: -25px;
+}
+
+.prompt{
+    position: relative;
+    left: 100px;
+    top: -30px;
+}
+
+ .t{
+     position: relative;
+     top: 10px;
+     left: 20px;
+ }
+.tips{
+    position: relative;
+    left: 80px;
+    top: -30px;
 }
 
 button{
     /* position: relative;
     top: 200px; */
-    width: 100px;
-    height: 50px;
-    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
     border-style: none;
     color: white;
     background-color: #2F4D00;
-    margin-left: 100px;
+    position: relative;
+    left: 155px;
+    top: -20px;
+    /* margin-left: 155px; */
 }
 
 .prompt, ul{
