@@ -10,9 +10,14 @@ body{
     width: 850px;
     position: relative;
     top: 50px;
-    left: 300px;
+    left: 250px;
     background:  #D6F6E3;
+    /* border: 1px solid;  */
 }
+
+/* .table{
+   border: 1px solid;
+} */
 
 .headings{
     position: absolute;
