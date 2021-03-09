@@ -10,7 +10,7 @@ body{
     width: 850px;
     position: relative;
     top: 50px;
-    left: 250px;
+    left: 200px;
     background:  #D6F6E3;
     /* border: 1px solid;  */
 }
@@ -42,10 +42,14 @@ table{
     top: 150px;
 }
 
- th{
+ .table-heading{
     background: #F77941;
     height: 40px;
+    width: 60%;
+    left: 210px;
+    top: 130px;
     border-radius: 20px 20px 0px 0px;
+    position: relative;
     
 } 
 

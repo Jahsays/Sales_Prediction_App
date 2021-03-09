@@ -1,15 +1,15 @@
 body{
-    background-color: black;
+    background-color:#ffffff;
 }
 
 .parent{
     /* border: 1px solid; */
-    height: 620px;
+    height: 575px;
     width: 950px;
     background-color: #ffffff;
     position: relative;
     top: 10px;
-    left: 200px;
+    left: 140px;
 }
 .container{
     /* border: 1px solid black; */

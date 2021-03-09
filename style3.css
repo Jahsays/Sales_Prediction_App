@@ -1,21 +1,31 @@
-/* body{
+body{
     position: relative;
-} */
+    padding-left: 10%;
+    /* border: 2px solid yellow; */
+    /* height: 900px; */
+    background-color: #D6F6E3
+}
+
+.parent-container{
+    position: relative;
+    width: 90%;
+    
+}
+
 .container{
-    position: absolute;
-    /* right: 0px; */
-    left: 150px;
+    position: relative;
+    /* right: 30px; */
+    /* left: 10px; */
     top: 30px;
-    width: 80%;
-    height: 90%;
-    background-color: #D6F6E3;;
+    width: 90%;
+    height: 100%;
+    /* background-color: #D6F6E3; */
+    /* border: 2px solid yellow; */
 }
 
 .description{
     position: relative;
-    /* left: 0px; */
-    border: 1px solid black;
-    width: 100%;
+    /* border: 10px solid rgb(161, 49, 49); */
     /* overflow: hidden; */
     /* justify-content: space-between; */
     
@@ -25,6 +35,7 @@
 .heading{
     position: relative;
   left: 100px;
+  width: 50%;
 }
 
 button, select{
@@ -33,21 +44,24 @@ button, select{
     border-radius: 10px;
     /* border-style: none; */
     color: black;
+    margin: 20px
 }
 input{
-    width:52%;
+    width:70%;
     height: 30px;
     border-radius: 10px;
     border-style: none;
+    margin: 20px;
 }
 
 .drop-down1, .drop-down2, .drop-down3, .drop-down4{
   position: relative;
-  left: 220px;
+  left: 10px;
   display: flex;
   justify-content: space-between;  
   width: 57%;
-  margin-top: 20px;
+  margin: 20px;
+
 }
 
 .drop-down2, .drop-down4{
@@ -64,6 +78,7 @@ display: flex;
 justify-content: space-between;
 width: 58%;
 margin-top: 35px;
+/* border: 1px solid; */
 }
 
 .second{
@@ -91,13 +106,13 @@ hr{
 }
 
 button{
-    position: relative;
-    top: 90px;
-    left: 460px;
-    width: 190px;
     color: #ffffff;
     background: #2F4D00;
-    border-radius: 15px;
-    border-style: none;
-    margin-top: -62px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1em;
 }
