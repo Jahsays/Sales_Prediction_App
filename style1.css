@@ -73,8 +73,16 @@ ul{
     position: relative;
     left: 4em;
 }
+
+.intro h1{
+    font-size: 28px;
+    color: black;
+}
+
 .intro p {
     margin: 2em 0;
+    color: black;
+    font-size: 14px;
 }
 
 .button > button{
@@ -119,6 +127,7 @@ ul{
 .features h2{
     display: flex;
     justify-content: center;
+    color: #F64F06;
 }
 
 .decor{
@@ -164,6 +173,7 @@ ul{
     border-radius: 20px;
     position: relative;
     top: 50px;
+    left: 40px;
 }
 
 .image2 img{
