@@ -34,6 +34,7 @@ body{
     border-style: none;
     color: #ffffff;
     border-radius: 10px;
+    outline: none;
 } 
 
 table{
@@ -70,4 +71,5 @@ table{
     color: #ffffff;
     border: none;
     border-radius: 10px;
+    outline: none;
  }  

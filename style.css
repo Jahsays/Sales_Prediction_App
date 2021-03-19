@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+/* body{
+    font-family: 'Poppins', sans-serif;
+} */
+
 .container{
     display: flex;
     flex-direction: column;
@@ -23,12 +27,7 @@ flex-direction: column;
 
 .navbar{
     /* background: tomato; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* padding-left: em; */
     width: 70%;
-    /* height: 3em; */
     position: relative;
     left: 1em;
     top: 1em;
@@ -37,7 +36,6 @@ flex-direction: column;
 ul{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 li{
@@ -61,10 +59,6 @@ a:hover {
     position: relative;
     top: 9em;
     left: 10em;
-    /* padding-left: 1em; */
-    /* display: flex; */
-    /* align-items: stretch; */
-
 }
 
 .intro p{
@@ -77,29 +71,24 @@ a:hover {
 .button button{
     position: relative;
     top: 4em;
-    /* left: 5em; */
     background: #2F4D00;
     color: #ffffff;
     font-size: 1em;
     width: 19em;
     height: 4em;
-    /* border: 1px solid blue; */
     border: none;
     border-radius: 1em;
+    outline: none;
 }
 
 .top-image{
     /* background: chartreuse; */
     height: fit-content;
     /* flex: 1; */
-    /* padding-left: 16.5em; */
-    /* width: 8em; */
-    /* float: left; */
 }
 
 #top-image{
     height: 40em;
-    /* float: left; */
 }
 
 .features h2{
@@ -112,51 +101,36 @@ a:hover {
     /* background: blue; */
     display: flex;
     justify-content: space-around;
-    /* padding-top: 1em; */
     height: 40em;
 }
 
-.decor1{
+.decor1, .decor3{
 border: 0.0625em solid #F64F06;
 height: 15em;
-/* width: 12em; */
-/* display: flex;  */
 padding-top: 1.5em;
 border-radius: 1em;
 }
 
-.image1{
-    position: relative;
-    left: 2em;
-    padding-top: 2em;
-    background: #ffffff;
-    box-shadow: 0em 1.25em 2.5em 0em #DEE0DC;
+.image1, .image3{
+position: relative;
+left: 2em;
+padding-top: 2em;
+background: #ffffff;
+box-shadow: 0em 1.25em 2.5em 0em #DEE0DC;
 /* border: 2px solid brown; */
 display: flex;
 flex-direction: column;
 border-radius: 0.7em;
-/* justify-content: center; */
 align-items: center;
 width: 15em;
 height: 18em;
+}    
 
-}
-
-.image1 img{
+.image1 img, .image3 img{
     height: 9em;
     width: 9em;
     /* position: relative;
     left: 1em; */
-}
-
-.image1 p{
-    /* background: chartreuse; */
-    /* width: 90%; */
-    padding-left: 1em;
-    font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-text-align: center;
 }
 
 .decor2{
@@ -165,9 +139,6 @@ padding-top: 3.5em;
 }
 
 .image2{
-/* position: relative; */
-/* left: 2em; */
-/* padding-top: 2em; */
 background: #ffffff;
 /* border: 2px solid brown; */
 display: flex;
@@ -183,92 +154,44 @@ height: 25em;
 .image2 img{
 height: 14em;
 width: inherit;
-/* position: relative;
-left: 1em; */
 }
 
 .image2 p{
-/* background: chartreuse; */
 width: 70%;
-padding-left: 1em;
+/* padding-left: 1em; */
 position: relative;
 top: 2.5em;
-/* display: flex;
-flex-wrap: wrap; */
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-text-align: center;
 }
 
-.decor3{
-    border: 0.0625em solid #F64F06;
-    height: 15em;
-    /* width: 12em; */
-    /* display: flex;  */
-    padding-top: 1.5em;
-    border-radius: 1em;
-}
-
-.image3{
-position: relative;
-left: 2em;
-padding-top: 2em;
-background: #ffffff;
-/* border: 2px solid brown; */
-display: flex;
-flex-direction: column;
-border-radius: 0.7em;
-box-shadow: 0em 1.25em 2.5em 0em #DEE0DC;
-/* justify-content: center; */
-align-items: center;
-width: 15em;
-height: 18em;
-}
-
-.image3 img{
-height: 9em;
-width: 9em;
-/* position: relative;
-left: 1em; */
-}
-
-/* .image1 p, .image2 p, .image3 p{ */
+.image1 p, .image2 p, .image3 p{
 /* background: chartreuse; */
-/* padding-left: 1em;
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
 text-align: center;
-} */
-
-.image3 p{
-    padding-left: 0.2em;
-}
+} 
 
 .footer{
-    background: #2F4D00;
-/* display: flex; */
-/* justify-content: center; */
+background: #2F4D00;
 height: 20em;
 }
 
 .image-review{
-    position: relative;
-    left: 10em;
-    top: 2em;
-    /* border: 2px solid red; */
-    /* background: cornsilk; */
-    width: 61em;
- display: flex;
- /* justify-content: center; */
- justify-content: space-around;
- /* align-items: center; */
+position: relative;
+left: 10em;
+top: 2em;
+/* border: 2px solid red; */
+/* background: cornsilk; */
+width: 61em;
+display: flex;
+/* justify-content: center; */
+justify-content: space-around;
+/* align-items: center; */
 }
 
 .image img{
-    height: 8em;
-    padding-right: 6em;
+height: 8em;
+padding-right: 6em;
 }
 
 .review h2{
@@ -280,9 +203,6 @@ height: 20em;
 }
 
 .review{
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     position: relative;
     top: 1em;
     color: #ffffff;
@@ -296,9 +216,6 @@ height: 20em;
     top: 5em;
     height: 4em;
     color: #ffffff;
-    /* padding-left: -10em; */
-    /* width: 100%; */
-    /* align-self: stretch; */
 }
 
 .apple-playstore{
@@ -308,7 +225,6 @@ height: 20em;
     width: 19em;
     position: relative;
     left: -7em;
-    /* align-self: flex-start; */
 }
 
 .copyright{
@@ -335,9 +251,107 @@ border: 1px solid#F64F06;
     color:  #F64F06; 
 }
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+/* @media (min-width:320px)  {  smartphones, iPhone, portrait 480x320 phones } */
+/* @media (max-width:481px)  { portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide.  */ 
+ /* .container{
+    width: 481px;
+}  */
+
+/* #top-image{
+    display: none;
+} */
+
+/* .top { */
+    /* width: 481px; */
+    /* background: yellow; */
+    /* flex-direction: column;*/
+    /* height: 27em;
+} */
+
+/* .About{
+    background: cornflowerblue; */
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+/* } */
+
+/* .intro{
+    border: 2px solid;
+    background:purple;
+    width: 15em;
+    height: 18.5em;
+    position: relative;
+    top: 6em;
+    left: 6em;
+}
+
+.intro p{
+    border: 1px solid yellow;
+    width: 80%;
+    position: relative;
+    top: 1.5em;
+} */
+
+/* .button button{
+    position: relative;
+    top: 2.5em;
+    background: #2F4D00;
+    color: #ffffff;
+    font-size: 1em;
+    width: 10em;
+    height: 3em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.mid{
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90em;
+} */
+
+/* .decor1, .decor3{
+    border: 0.0625em solid #F64F06;
+    height: 15em;
+    width: 15em;
+    padding-top: 1.5em;
+    border-radius: 1em;
+    }
+
+    .decor2{
+        border: 1px solid pink;
+        padding-top: 3.5em;
+        width: 20em;
+        }
+     */
+    /* .image1, .image3{
+    position: relative;
+    left: 2em;
+    padding-top: 2em;
+    background: #ffffff;
+    box-shadow: 0em 1.25em 2.5em 0em #DEE0DC;
+    border: 2px solid brown;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.7em;
+    align-items: center;
+    width: 15em;
+    height: 18em;
+    }     */
+    
+    /* .image1 img, .image3 img{
+        height: 9em;
+        width: 9em; */
+        /* position: relative;
+        left: 1em; */
+    /* } */
+    
+
+/* } */
+/* @media (min-width:641px)  { portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones } */
+/* @media (min-width:961px)  { tablet, landscape iPad, lo-res laptops ands desktops } */
+/* @media (min-width:1025px) { big landscape tablets, laptops, and desktops } */
+/* @media (min-width:1281px) { hi-res laptops and desktops } */
