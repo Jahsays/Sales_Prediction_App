@@ -1,119 +1,149 @@
+*, *::before ,*::after{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    position: relative;
-    padding-left: 10%;
-    border: 2px solid yellow;
-    /* height: 900px; */
-    background-color: #D6F6E3
+    background: #D6F6E3;
+    padding: 1em;
 }
 
 .parent-container{
-    position: relative;
-    width: 90%;
-    background: blue;
-    
+    /* background: chartreuse; */
+    padding: 2em;
 }
 
 .container{
-    position: relative;
-    /* right: 30px; */
-    /* left: 10px; */
-    top: 30px;
-    width: 90%;
-    height: 100%;
-    /* background: yellow; */
-    border: 2px solid yellow;
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
 }
 
 .description{
-    position: relative;
-    /* border: 10px solid rgb(161, 49, 49); */
-    /* overflow: hidden; */
-    /* justify-content: space-between; */
-    
-    /* display: inline-flexbox; */
+    /* background: chocolate; */
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    width: 90%;
+}
+
+.heading input{
+    width: 87%;
+    height: 3em;
+    border-radius: 1em;
+    border: none;
 }
 
 .heading{
-    position: relative;
-  left: 100px;
-  width: 50%;
+    /* background: darkgrey; */
+    width: 60%;
 }
 
-button, select{
-    width: 140px;
-    height: 40px;
-    border-radius: 10px;
-    /* border-style: none; */
-    color: black;
-    margin: 20px
-}
-input{
-    width:70%;
-    height: 30px;
-    border-radius: 10px;
-    border-style: none;
-    margin: 20px;
+select{
+    height: 4em;
+    width: 12em;
+    padding-left: 2em;
+    /* padding-right: 2em; */
+    border-radius: 1em;
+    
 }
 
 .drop-down1, .drop-down2, .drop-down3, .drop-down4{
-  position: relative;
-  left: 10px;
-  display: flex;
-  justify-content: space-between;  
-  width: 57%;
-  margin: 20px;
-
+    /* background: pink; */
+    /* border: 2px solid black; */
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
 }
 
-.drop-down2, .drop-down4{
-    width: 45%;
-    margin-left: 80px;
+.food-content{
+    /* background: greenyellow; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 9.5em;
 }
 
-.first, .second {
-color: black;
-/* display: inline; */
-position: relative;
-left: 190px;
-display: flex;
-justify-content: space-between;
-width: 58%;
-margin-top: 35px;
-/* border: 1px solid; */
-}
-
-.second{
+.first, .second{
+    display: flex;
+    justify-content: space-between;
     width: 50%;
-    position: relative;
-    left: 250px;
-}
-
-p.secondd, p{
-    position: relative;
-    left: 40px;
-}
-
-p.secondd{
-    left: 25px;
+    padding-top: 1em;
+    /* background: yellow; */
+    height: 100%;
+    width: 60%;
+    padding-top: 2em;
 }
 
 hr{
-    width:120px;
-    border-bottom: 1px solid;
+    position: relative;
+    top: 1em;
+    width: 8em;
 }
 
-.second hr{
- width: 150px;
-}
-
-button{
-    color: #ffffff;
-    background: #2F4D00;
+.second{
+    justify-content: space-around;
 }
 
 .button{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 1em;
+    padding-top: 1em;
 }
+
+button{
+    background: #2F4D00;
+    width: 12em;
+    height: 2.5em;
+    font-size: 1em;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.7em;
+}
+
+@media (max-width:600px){
+    .drop-down1, .drop-down2, .drop-down3, .drop-down4{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height: 16em;
+        justify-content: space-between; 
+        padding-top: 0.7em;
+        width: 60%;
+    }
+
+    .drop-down2{
+        height: 12.5em;
+    }
+
+    .drop-down4{
+        height: 8em;
+    }
+
+    input, select{
+        outline: none;
+    }
+       
+     .food-content{
+         height: 25em;
+     }
+
+    .first, .second{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        /* background: #808080; */
+    }
+
+    button{
+        width: 9em;
+    }
+
+    .heading input{
+        width: 99%;
+    }
+ } 
