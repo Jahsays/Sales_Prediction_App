@@ -279,9 +279,9 @@ border: 1px solid#F64F06;
         border: none;
     }
 
-    .features{
-        /* height: 1vh; */
-    }
+    /* .features{
+        height: 1vh;
+    } */
     .mid{
         display: flex;
         flex-direction: column;

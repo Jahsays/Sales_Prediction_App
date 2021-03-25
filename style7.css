@@ -1,0 +1,149 @@
+*, *::before ,*::after{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #D6F6E3;
+    padding: 1em;
+}
+
+.parent-container{
+    /* background: chartreuse; */
+    padding: 2em;
+}
+
+.container{
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.description{
+    /* background: chocolate; */
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    width: 90%;
+}
+
+.heading input{
+    width: 87%;
+    height: 3em;
+    border-radius: 1em;
+    border: none;
+}
+
+.heading{
+    /* background: darkgrey; */
+    width: 60%;
+}
+
+select{
+    height: 4em;
+    width: 12em;
+    padding-left: 2em;
+    /* padding-right: 2em; */
+    border-radius: 1em;
+    
+}
+
+.drop-down1, .drop-down2, .drop-down3, .drop-down4{
+    /* background: pink; */
+    /* border: 2px solid black; */
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.food-content{
+    /* background: greenyellow; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 9.5em;
+}
+
+.first, .second{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 1em;
+    /* background: yellow; */
+    height: 100%;
+    width: 60%;
+    padding-top: 2em;
+}
+
+hr{
+    position: relative;
+    top: 1em;
+    width: 8em;
+}
+
+.second{
+    justify-content: space-around;
+}
+
+.button{
+    padding-top: 1em;
+}
+
+button{
+    background: #2F4D00;
+    width: 12em;
+    height: 2.5em;
+    font-size: 1em;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.7em;
+}
+
+@media (max-width:600px){
+    .drop-down1, .drop-down2, .drop-down3, .drop-down4{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height: 16em;
+        justify-content: space-between; 
+        padding-top: 0.7em;
+        width: 60%;
+    }
+
+    .drop-down2{
+        height: 12.5em;
+    }
+
+    .drop-down4{
+        height: 8em;
+    }
+
+    input, select{
+        outline: none;
+    }
+       
+     .food-content{
+         height: 25em;
+     }
+
+    .first, .second{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        /* background: #808080; */
+    }
+
+    button{
+        width: 9em;
+    }
+
+    .heading input{
+        width: 99%;
+    }
+ } 

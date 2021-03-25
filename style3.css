@@ -1,7 +1,7 @@
 body{
     position: relative;
     padding-left: 10%;
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
     /* height: 900px; */
     background-color: #D6F6E3
 }
@@ -9,6 +9,7 @@ body{
 .parent-container{
     position: relative;
     width: 90%;
+    background: blue;
     
 }
 
@@ -19,8 +20,8 @@ body{
     top: 30px;
     width: 90%;
     height: 100%;
-    /* background-color: #D6F6E3; */
-    /* border: 2px solid yellow; */
+    /* background: yellow; */
+    border: 2px solid yellow;
 }
 
 .description{
