@@ -1,82 +1,130 @@
+*, *::before ,*::after{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #ffffff;
+    background: #ffffff;
 }
 
 .parent{
-    /* border: 1px solid; */
-    height: 575px;
-    width: 950px;
-    background-color: #ffffff;
-    position: relative;
-    top: 10px;
-    left: 130px;
+    /* background: green; */
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
 }
+
 .container{
-    /* border: 1px solid black; */
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    left: 230px;
-    top: 30px;
-    background-color: #ffffff;
+    /* background: blue; */
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .heading{
-    position: relative;
-    left: 200px;
-    top: 20px;
+/* background: grey; */
+width: 20%;
+display: flex;
+justify-content: center;
 }
 
-img{
-    width: 80%;
-    height: 80%;
-    object-fit: cover;
-    /* border: 1px solid; */
-    position: relative;
-    left: 50px;
-    top: 30px;
-}
 .illustration{
-    width: 500px;
-    height: 300px;
-    /* object-fit: cover; */
-    /* border: 1px solid; */
-    position: relative;
-    top: -25px;
+    /* background: yellow; */
+    height: 60%;
+    width: 40%;
 }
 
 .prompt{
-    position: relative;
-    left: 100px;
-    top: -30px;
+    /* background: rgb(216, 35, 35); */
+    color: #13CE4D;
+
+    padding-top: 0.5em;
 }
 
- .t{
-     position: relative;
-     top: 10px;
-     left: 20px;
- }
 .tips{
+    /* background: greenyellow; */
+    padding-top: 1.5em;
+    padding-left: 5em;
+    height: 25%;
+    width: 30%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+ul{
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+    background: white;
+    color: #13CE4D;
+    ;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button{
+    /* background: purple; */
+    padding-top: 0.8em;
+    width: 20%;
     position: relative;
-    left: 80px;
-    top: -30px;
+    left: 2em;
 }
 
 button{
-    /* position: relative;
-    top: 200px; */
-    width: 200px;
-    height: 40px;
-    border-radius: 10px;
-    border-style: none;
-    color: white;
-    background-color: #2F4D00;
-    position: relative;
-    left: 155px;
-    top: -20px;
-    /* margin-left: 155px; */
+    width: 90%;
+    height: 3em;
+    background: #2F4D00;
+    border-radius: 1em;
+    color: #ffffff;
+    border: none;
 }
 
-.prompt, ul{
-    color: red;
+img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 600px){
+    .tips{
+        width: 60%;
+        padding-left: 1em;
+    }
+
+    .heading{
+        width: 50%;
+        }
+
+    .illustration{
+        width: 80%;
+    }
+
+    .button{
+        /* padding-top: 0em; */
+        padding-bottom: 1em;
+        width: 40%;
+    }
+}
+
+@media (max-width: 320px){
+    .button{
+        padding-top: 2em;
+        padding-bottom: 1em;
+    }
+    .illustration{
+        width: 80%;
+    }
+    .heading{
+        width: 60%;
+        }
+        .button{
+            
+            /* padding-bottom: 1em; */
+            width: 50%;
+        }
+        
 }
