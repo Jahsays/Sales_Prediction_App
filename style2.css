@@ -24,7 +24,7 @@ margin: 0.5em;
     flex-direction: column;
 }
 
-button{
+button, .data{
     outline: none;
     background: #2F4D00;
     color: #ffffff;
