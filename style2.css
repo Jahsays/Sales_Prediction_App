@@ -24,7 +24,18 @@ margin: 0.5em;
     flex-direction: column;
 }
 
-button, .data{
+.label{
+    height: 3em;
+    border-radius: 1em;
+    width: 18%;
+    padding-left: 0.9em;
+    padding-top: 0.8em;
+    font-size: 1.1em;
+    background: #2F4D00;
+    color: #ffffff;
+}
+
+button{
     outline: none;
     background: #2F4D00;
     color: #ffffff;
@@ -90,6 +101,9 @@ table{
    }
 
    @media (max-width: 600px){
+.label{
+    font-size: 0.5em;
+}
 button{
     font-size: 0.5em;
 }
@@ -110,9 +124,11 @@ table{
        .container{
            width: 100%;
        }
-       button{
-        font-size: 0.5em;
-    }
+
+.label{
+    width: 25%;
+}
+
     .data{
         margin-left: 1em;
         height: 4em;
